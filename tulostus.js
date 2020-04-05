@@ -1,6 +1,3 @@
-module.exports.tulostaTahtia = tulostaTahtia
-module.exports.tulostaTulos = tulostaTulos
-
 const tulostaTahtia = (maara) => {
     var result= '';
 for (var i = 0; i < maara; i++) {
@@ -24,3 +21,6 @@ const tulostaTulos = (tulos) => {
 }
 
 //tulostaTulos(34523452)
+
+module.exports = tulostaTahtia
+module.exports = tulostaTulos
