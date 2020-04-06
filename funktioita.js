@@ -1,6 +1,6 @@
-//const tulostus = require('./tulostus')
-const tulostaTulos = require('./tulostus')
 
+const tulostaTulos = require('./tulostus')
+//Moduuli ei toimi oikein?
 
 const tulostaNelio = (sivu, tulostus) => {
     var i, j;
@@ -72,3 +72,11 @@ const kertoma = (n) => {
 }
 
 tulostaTulos(kertoma(10));
+
+
+module.exports = tulostaNelio
+module.exports = tulostaSuorakulmio
+module.exports = tulostaKolmio
+module.exports = lukusarjanSumma
+module.exports = kertoma
+// Moduulit eivät toimi oikein?
